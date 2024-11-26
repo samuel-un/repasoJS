@@ -10,3 +10,21 @@
     Resta num1 y num2 y guarda el resultado en una variable llamada resta.
     Multiplica num1 por num2 y guarda el resultado en una variable llamada multiplicacion.
     Divide num1 entre num2 y guarda el resultado en una variable llamada division. */
+
+    let nombre = "Samuel";
+
+    let edad = 20;
+
+    let esEstudiante = true;
+
+    let mensaje = `Hola ${nombre}!, ${edad} años verdad?`;
+
+    let num1 = 10;
+
+    let num2 = 20;
+
+    let suma = sum1 + num2;
+    let resta = sum1 - num2;
+    let multiplicacion = sum1 * sum2;
+    let division = num1 / num2;
+    
