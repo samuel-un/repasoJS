@@ -17,3 +17,22 @@ Dado un número decimal, utiliza la función Math.ceil() para redondearlo hacia 
 const value = 2.3
 20.6 Número Aleatorio
 Utiliza la función Math.random() para generar un número aleatorio entre 1 y 10. Luego, imprime el número aleatorio. */
+
+const floatString = '3.14';
+console.log(parseFloat(floatString));
+
+const num1 = 42
+const num2 = 3.14
+console.log(Number.isInteger(num1), Number.isInteger(num2));
+
+const value = 3.6
+console.log(Math.round(value));
+
+const value2 = 5.8
+console.log(Math.floor(value2));
+
+const value3 = 2.3
+console.log(Math.ceil(value3));
+
+const numberRamdon = Math.floor(Math.random() * 10) + 1;
+console.log(numberRamdon);

@@ -18,3 +18,21 @@ const value = 3.14159
 19.6 Convertir a Entero
 Dada una cadena numérica, utiliza el método parseInt() para convertirla en un número entero. Luego, imprime el resultado.
 const numString = '25' */
+
+const sentence = 'El perro es fiel y el gato es independiente.';
+console.log(sentence.replace("independiente", "diferente"));
+
+const phrase = 'JavaScript es divertido';
+console.log(phrase.includes("divertido"));
+
+const text = '    Hola, mundo   ';
+console.log(text.trim(" "));
+
+const number = 42;
+console.log(number.toString());
+
+const value = 3.14159;
+console.log(value.toFixed(2));
+
+const numString = "25";
+console.log(parseInt(numString));

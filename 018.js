@@ -17,3 +17,27 @@ const originalString = 'Programación en JavaScript'
 18.6 Dividir en Subcadenas
 Dada una cadena de texto que contiene palabras separadas por espacios, utiliza el método split() para dividir la cadena en un array de palabras individuales. Luego, imprime el array resultante.
 const sentence = 'Esta es una oración de ejemplo.' */
+
+const originalString = 'hola mundo';
+
+const uppercaseString = originalString.toUpperCase();
+console.log(uppercaseString);
+
+const lowercaseString = uppercaseString.toLowerCase();
+console.log(lowercaseString);
+
+const text = 'JavaScript';
+const lengthText = text.length;
+console.log(lengthText);
+
+const sentence = 'Hola, ¿cómo estás?';
+const posSubString = sentence.indexOf("estás?");
+console.log(posSubString);
+
+const originalString2 = 'Programación en JavaScript';
+const sliceString = originalString2.slice(16, 26);
+console.log(sliceString);
+
+const sentence2 = 'Esta es una oración de ejemplo.';
+const arrayWords = sentence.split(" ");
+console.log(arrayWords);
